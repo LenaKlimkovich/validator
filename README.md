@@ -1,0 +1,1 @@
+![Build Status](https://github.com/LenaKlimkovich/validator/actions/workflows/deploy.yml/badge.svg)

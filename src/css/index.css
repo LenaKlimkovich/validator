@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.cards div {
+    width: 50px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3px; 
+    width: 100%;
+}
+
+
+input {
+ height: 23px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.cards div {
+    opacity: 0.3;
+    transition: opacity 0.2s;
+}
+
+.cards div.active {
+    opacity: 1;
+}
+
+input.valid {
+    border: 1px solid green;
+}
+
+input.invalid {
+    border: 1px solid red;
+}
